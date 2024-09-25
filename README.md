@@ -1,37 +1,15 @@
-# PlasterPlan
-Uso
-Aqui está um exemplo de como usar o PlasterPlan:
-## Descrição
 
-from plasterplan import calculate_materials, calculate_profiles
+# File with heading
 
-# Exemplo de uso
-wall_area = 30.0  # Área da parede em m²
-wall_length = 10.0  # Comprimento da parede em metros
+PlasterPlan
+Versão: 0.1
 
-sheets_needed = calculate_materials(wall_area)
-profiles_needed = calculate_profiles(wall_length)
+Descrição
+PlasterPlan é um pacote Python para cálculo de quantitativos de materiais para drywall. Ele permite que você determine a quantidade de materiais necessários para uma construção utilizando drywall, como perfis, chapas e outros componentes.
 
-print(f"Chapas necessárias: {sheets_needed}")
-print(f"Perfis necessários: {profiles_needed}")
-
-
-
---------------------------------------------------------------
-Interface Gráfica
-Você também pode usar a interface gráfica:
-
-python user_interface.py
-
-
-
-O PlasterPlan é um pacote Python projetado para ajudar no cálculo de quantitativos de materiais usados em drywall. Ele calcula a quantidade de chapas de drywall necessárias, a quantidade de perfis, e oferece uma visualização dos resultados com gráficos.
-
-## Instalação
-```bash
-pip install .
-# plasterplan
-
-
-##Uso
-Aqui está um exemplo de como usar o PlasterPlan:
+Instalação
+pip install plasterplan
+Funcionalidades
+Cálculo de materiais: Baseado na área informada, o pacote calcula a quantidade de chapas, perfis e outros materiais.
+Visualização de gráficos: Integração com o Matplotlib para visualização gráfica dos quantitativos.
+Personalização de parâmetros: Permite ajustar as dimensões das chapas e perfis de acordo com as especificações da obra.
